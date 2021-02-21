@@ -1,0 +1,92 @@
+body {
+  background-color: #161515;
+  font-family: "Varela Round", sans-serif;
+}
+
+nav {
+  font-size: 1.5rem;
+  background-color: #121212;
+}
+
+/* the movie icon */
+#main_icon {
+  font-size: 2rem;
+}
+
+.movie_icon {
+  color: #e2b616;
+}
+/* the height of main */
+.min-h620 {
+  min-height: 600px;
+}
+
+.container-fluid {
+  padding: 0% 5% 1% 5%;
+}
+
+/* the select of movies */
+
+.custom-select {
+  background-color: #121212;
+  color: white;
+  font-size: 1.5rem;
+  border-color: black;
+  color: #e2b616;
+}
+
+option {
+  color: aliceblue;
+}
+
+.movie_card {
+  background-color: #56998b;
+  color: aliceblue;
+}
+
+/* the ratings buttons */
+.btn-warning {
+  background-color: #e2b616;
+  border-color: #e2b616;
+  margin: 10px;
+  color: white;
+}
+
+/* best movie  */
+.best {
+  color: #e2b616;
+}
+
+.bestMoviWrapper {
+  position: relative;
+  padding-bottom: 40%; /* 16:9 */
+  height: 0;
+}
+.bestMoviWrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* main movie */
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* footer */
+
+.footer {
+  background-color: #121212;
+}
