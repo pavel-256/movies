@@ -24,7 +24,7 @@ export const DataMovie = ({ children }) => {
       id: 1,
       discription:
         "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-      rating: [1],
+      rating: [4],
       img: "https://www.youtube.com/embed/6ziBFh3V1aM",
       avg: 5,
       img2: avatar,
@@ -55,7 +55,7 @@ export const DataMovie = ({ children }) => {
       id: 4,
       discription:
         "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
-      rating: [],
+      rating: [1],
       img: "https://www.youtube.com/embed/zjdtiQx7RIw",
       img2: spiderman3,
       avg: 2.1,
