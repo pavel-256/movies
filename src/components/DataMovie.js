@@ -24,11 +24,11 @@ export const DataMovie = ({ children }) => {
       id: 1,
       discription:
         "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-      rating: [5,5,5,5],
+      rating: [4,5,5,5],
       img: "https://www.youtube.com/embed/6ziBFh3V1aM",
       avg: 5,
       img2: avatar,
-      avg: 5,
+      avg: 4.7,
     },
     {
       name: "The Matrix",
