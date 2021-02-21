@@ -38,7 +38,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/EweuTOz7g-g",
       img2: matrix,
-      avg: 4,
+      avg: 4.5,
     },
     {
       name: "The Dark Knight",
@@ -48,7 +48,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/EXeTwQWrcwY",
       img2: batman,
-      avg: 3,
+      avg: 3.8,
     },
     {
       name: "Spiderman 3",
@@ -58,7 +58,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/zjdtiQx7RIw",
       img2: spiderman3,
-      avg: 2,
+      avg: 2.15,
     },
     {
       name: "Leon",
@@ -68,7 +68,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/rNw0D7Hh0DY",
       img2: leon,
-      avg: 1,
+      avg: 2.72,
     },
     {
       name: "Mad Max",
@@ -77,7 +77,8 @@ export const DataMovie = ({ children }) => {
         "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
       rating: [],
       img: "https://www.youtube.com/embed/YWNWi-ZWL3c",
-      avg: 1,
+      img2: madmax,
+      avg: 4.43,
     },
     {
       name: "Rambo 2",
@@ -87,7 +88,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/IQt9bDOGTgg",
       img2: rambo2,
-      avg: 1,
+      avg: 2.3,
     },
     {
       name: "Riddic",
@@ -96,7 +97,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/iP3eFIOBU0k",
       img2: riddic,
-      avg: 1,
+      avg: 3.48,
     },
     {
       name: "Robocop 2",
@@ -106,7 +107,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/HNcy89RqF5Q",
       img2: robocop2,
-      avg: 1,
+      avg: 2.37,
     },
     {
       name: "Terminator 2",
@@ -116,7 +117,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/CRRlbK5w8AE",
       img2: terminator2,
-      avg: 1,
+      avg: 1.45,
     },
   ]);
 

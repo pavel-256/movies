@@ -76,7 +76,7 @@ function AllMovies(props) {
                     name="name"
                     className="custom-select mr-sm-2 "
                   >
-                    <option selected="true" disabled="disabled">
+                    <option selected="false" disabled="disabled">
                       Movies
                     </option>
                     {movies.map((item, index) => {
