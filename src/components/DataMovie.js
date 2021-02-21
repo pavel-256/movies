@@ -24,7 +24,7 @@ export const DataMovie = ({ children }) => {
       id: 1,
       discription:
         "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-      rating: [],
+      rating: [1],
       img: "https://www.youtube.com/embed/6ziBFh3V1aM",
       avg: 5,
       img2: avatar,
@@ -35,7 +35,7 @@ export const DataMovie = ({ children }) => {
       id: 2,
       discription:
         "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
-      rating: [],
+      rating: [3],
       img: "https://www.youtube.com/embed/EweuTOz7g-g",
       img2: matrix,
       avg: 4.5,
@@ -45,7 +45,7 @@ export const DataMovie = ({ children }) => {
       id: 3,
       discription:
         "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-      rating: [],
+      rating: [3],
       img: "https://www.youtube.com/embed/EXeTwQWrcwY",
       img2: batman,
       avg: 3.8,
@@ -65,7 +65,7 @@ export const DataMovie = ({ children }) => {
       id: 5,
       discription:
         "Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
-      rating: [],
+      rating: [2],
       img: "https://www.youtube.com/embed/rNw0D7Hh0DY",
       img2: leon,
       avg: 2.7,
@@ -75,7 +75,7 @@ export const DataMovie = ({ children }) => {
       id: 6,
       discription:
         "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
-      rating: [],
+      rating: [4],
       img: "https://www.youtube.com/embed/YWNWi-ZWL3c",
       img2: madmax,
       avg: 4.4,
@@ -85,7 +85,7 @@ export const DataMovie = ({ children }) => {
       id: 7,
       discription:
         "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
-      rating: [],
+      rating: [2],
       img: "https://www.youtube.com/embed/IQt9bDOGTgg",
       img2: rambo2,
       avg: 2.3,
@@ -94,7 +94,7 @@ export const DataMovie = ({ children }) => {
       name: "Riddic",
       id: 7,
       discription: "EE",
-      rating: [],
+      rating: [3],
       img: "https://www.youtube.com/embed/iP3eFIOBU0k",
       img2: riddic,
       avg: 3.4,
@@ -104,7 +104,7 @@ export const DataMovie = ({ children }) => {
       id: 7,
       discription:
         "Robocop is back to fight a new seed of crime and a more dangerous and violent robot version of himself.",
-      rating: [],
+      rating: [2],
       img: "https://www.youtube.com/embed/HNcy89RqF5Q",
       img2: robocop2,
       avg: 2.3,
@@ -114,7 +114,7 @@ export const DataMovie = ({ children }) => {
       id: 7,
       discription:
         "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
-      rating: [],
+      rating: [1],
       img: "https://www.youtube.com/embed/CRRlbK5w8AE",
       img2: terminator2,
       avg: 1.4,
