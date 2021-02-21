@@ -151,7 +151,7 @@ function AllMovies(props) {
                             {item.name}
                           </button>
                           <p className="mt-4">
-                            Rating: {item.avg} <i class="fas fa-star"> </i>
+                            Rating: {item.avg.toFixed(1)} <i class="fas fa-star"> </i>
                           </p>
                           <p className="card-text">
                             <small className="text-muted"></small>

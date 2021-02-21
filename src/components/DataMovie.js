@@ -58,7 +58,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/zjdtiQx7RIw",
       img2: spiderman3,
-      avg: 2.15,
+      avg: 2.1,
     },
     {
       name: "Leon",
@@ -68,7 +68,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/rNw0D7Hh0DY",
       img2: leon,
-      avg: 2.72,
+      avg: 2.7,
     },
     {
       name: "Mad Max",
@@ -78,7 +78,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/YWNWi-ZWL3c",
       img2: madmax,
-      avg: 4.43,
+      avg: 4.4,
     },
     {
       name: "Rambo 2",
@@ -97,7 +97,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/iP3eFIOBU0k",
       img2: riddic,
-      avg: 3.48,
+      avg: 3.4,
     },
     {
       name: "Robocop 2",
@@ -107,7 +107,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/HNcy89RqF5Q",
       img2: robocop2,
-      avg: 2.37,
+      avg: 2.3,
     },
     {
       name: "Terminator 2",
@@ -117,7 +117,7 @@ export const DataMovie = ({ children }) => {
       rating: [],
       img: "https://www.youtube.com/embed/CRRlbK5w8AE",
       img2: terminator2,
-      avg: 1.45,
+      avg: 1.4,
     },
   ]);
 
