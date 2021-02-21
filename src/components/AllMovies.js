@@ -34,11 +34,16 @@ function AllMovies(props) {
     setnewMovie({ display: true });
 
     history.push(`/${e.target.value}`);
+
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   return (
     <div>
-      <header>
+      <header id="top">
         <nav className="navbar navbar-expand-lg navbar-dark">
           <div className="container-fluid">
             <div className="movie_icon">
@@ -138,6 +143,7 @@ function AllMovies(props) {
                       <div className="col-lg-6 col">
                         <div className="card-body">
                           <button
+                            id="scroll"
                             onClick={handelChange}
                             value={item.name}
                             className="card-title btn btn-warning btn-lg "
