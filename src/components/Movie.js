@@ -26,9 +26,7 @@ export default function Movie(props) {
   };
 
   const sendDisplay = () => {
-
-    props.sendDisplay(newMovie.name)
-
+    props.sendDisplay(newMovie.name);
   };
 
   return (
@@ -50,14 +48,20 @@ export default function Movie(props) {
           <div className="card-body">
             <h3 className="card-title">{props.name}</h3>
             <p className="card-text">{props.discription}</p>
+            <br />
+            <h6>Director: &nbsp; {props.director}</h6>
+            <h6>Writers: &nbsp; {props.writers}</h6>
+            <h6>Stars: &nbsp; {props.stars}</h6>
+            <br />
 
-            <div>
-              Average Rating: {props.avg.toFixed(1)} <i class="fas fa-star"></i>
-            </div>
+            <h6>
+              Average Rating:&nbsp; {props.avg.toFixed(1)}{" "}
+              <i class="fas fa-star"></i>
+            </h6>
           </div>
           <div>
             <button
-              className="btn btn-warning"
+              className="btn btn-warning btn-lg"
               value="1"
               onClick={updateRating}
             >
@@ -66,7 +70,7 @@ export default function Movie(props) {
 
             <button
               value="2"
-              className="btn btn-warning"
+              className="btn btn-warning btn-lg"
               onClick={updateRating}
             >
               2
@@ -75,21 +79,21 @@ export default function Movie(props) {
             <button
               value="3"
               onClick={updateRating}
-              className="btn btn-warning"
+              className="btn btn-warning btn-lg"
             >
               3
             </button>
             <button
               onClick={updateRating}
               value="4"
-              className="btn btn-warning"
+              className="btn btn-warning btn-lg"
             >
               4
             </button>
             <button
               value="5"
               onClick={updateRating}
-              className="btn btn-warning"
+              className="btn btn-warning btn-lg"
             >
               5
             </button>

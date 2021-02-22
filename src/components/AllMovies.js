@@ -6,10 +6,11 @@ import Movie from "./Movie";
 
 function AllMovies(props) {
   const history = useHistory();
-  const { movies } = useData();
+  const { movies, setMovies } = useData();
 
   const [newMovie, setnewMovie] = useState({
     display: false,
+    resetSelect: false,
   });
 
   const sort = () => {
@@ -28,9 +29,7 @@ function AllMovies(props) {
   sort();
 
   const handelChange = (e) => {
-    console.log(e.target.value);
-
-    setnewMovie({ display: true });
+    setnewMovie({ display: true, resetSelect: true });
 
     history.push(`/${e.target.value}`);
 
@@ -44,6 +43,8 @@ function AllMovies(props) {
     history.push(`/${display}`);
     setnewMovie({ display: true });
   };
+
+
 
   return (
     <div>
@@ -76,11 +77,12 @@ function AllMovies(props) {
                 </li>
                 <li className="nav-item mr-auto">
                   <select
+                    value={newMovie.resetSelect === true ? "Movies" : "Movies"}
                     onChange={handelChange}
                     name="name"
                     className="custom-select mr-sm-2 "
                   >
-                    <option selected="false" disabled="disabled">
+                    <option selected="true" disabled="disabled">
                       Movies
                     </option>
                     {movies.map((item, index) => {
@@ -110,6 +112,9 @@ function AllMovies(props) {
                         index={index}
                         img={item.img}
                         avg={item.avg}
+                        director={item.director}
+                        writers={item.writers}
+                        stars={item.stars}
                         sendDisplay={sendDisplay}
                       />
                     )}
@@ -126,6 +131,9 @@ function AllMovies(props) {
                         index={index}
                         img={item.img}
                         avg={item.avg}
+                        director={item.director}
+                        writers={item.writers}
+                        stars={item.stars}
                         sendDisplay={sendDisplay}
                       />
                     )}
@@ -139,7 +147,7 @@ function AllMovies(props) {
               {movies.map((item, index) => {
                 return index < 3 ? (
                   <div
-                    className="card mb-3 movie_card "
+                    className="card mb-5  movie_card "
                     style={{ maxWidth: "600px" }}
                   >
                     <div className="row no-gutters ">
@@ -157,7 +165,7 @@ function AllMovies(props) {
                             {item.name}
                           </button>
                           <p className="mt-4">
-                            Rating: {item.avg.toFixed(1)}{" "}
+                            Rating: {item.avg.toFixed(1)}
                             <i class="fas fa-star"> </i>
                           </p>
                           <p className="card-text">
@@ -194,12 +202,3 @@ function AllMovies(props) {
 }
 
 export default withRouter(AllMovies);
-
-<iframe
-  width="900"
-  height="506"
-  src="https://www.youtube.com/embed/m8e-FF8MsqU"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>;
