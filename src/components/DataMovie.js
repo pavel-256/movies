@@ -24,28 +24,30 @@ export const DataMovie = ({ children }) => {
       id: 1,
       discription:
         "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-      rating: [4,5,5,5],
+      rating: [5, 5, 5, 5],
       img: "https://www.youtube.com/embed/6ziBFh3V1aM",
       avg: 5,
       img2: avatar,
-      avg: 4.7,
+      avg: 5.0,
+      display: false,
     },
     {
       name: "The Matrix",
       id: 2,
       discription:
         "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
-      rating: [3,4,5,5],
+      rating: [4, 3, 5, 5],
       img: "https://www.youtube.com/embed/EweuTOz7g-g",
       img2: matrix,
       avg: 4.2,
+      display: false,
     },
     {
       name: "The Dark Knight",
       id: 3,
       discription:
         "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-      rating: [3,3,5,1],
+      rating: [3, 3, 5, 1],
       img: "https://www.youtube.com/embed/EXeTwQWrcwY",
       img2: batman,
       avg: 3.0,
@@ -55,7 +57,7 @@ export const DataMovie = ({ children }) => {
       id: 4,
       discription:
         "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
-      rating: [1,3,2,2],
+      rating: [1, 3, 2, 2],
       img: "https://www.youtube.com/embed/zjdtiQx7RIw",
       img2: spiderman3,
       avg: 2.0,
@@ -65,7 +67,7 @@ export const DataMovie = ({ children }) => {
       id: 5,
       discription:
         "Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
-      rating: [2,3,4,2],
+      rating: [2, 3, 4, 2],
       img: "https://www.youtube.com/embed/rNw0D7Hh0DY",
       img2: leon,
       avg: 2.7,
@@ -75,7 +77,7 @@ export const DataMovie = ({ children }) => {
       id: 6,
       discription:
         "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
-      rating: [4,4,4,3],
+      rating: [4, 4, 4, 3],
       img: "https://www.youtube.com/embed/YWNWi-ZWL3c",
       img2: madmax,
       avg: 3.7,
@@ -85,7 +87,7 @@ export const DataMovie = ({ children }) => {
       id: 7,
       discription:
         "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
-      rating: [2,2,2,4],
+      rating: [2, 2, 2, 4],
       img: "https://www.youtube.com/embed/IQt9bDOGTgg",
       img2: rambo2,
       avg: 2.5,
@@ -94,7 +96,7 @@ export const DataMovie = ({ children }) => {
       name: "Riddic",
       id: 7,
       discription: "EE",
-      rating: [3,2,2,1],
+      rating: [3, 2, 2, 1],
       img: "https://www.youtube.com/embed/iP3eFIOBU0k",
       img2: riddic,
       avg: 2.0,
@@ -104,7 +106,7 @@ export const DataMovie = ({ children }) => {
       id: 7,
       discription:
         "Robocop is back to fight a new seed of crime and a more dangerous and violent robot version of himself.",
-      rating: [2,3,5,2],
+      rating: [2, 3, 5, 2],
       img: "https://www.youtube.com/embed/HNcy89RqF5Q",
       img2: robocop2,
       avg: 3.0,
@@ -114,7 +116,7 @@ export const DataMovie = ({ children }) => {
       id: 7,
       discription:
         "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
-      rating: [1,2,3,5],
+      rating: [1, 2, 3, 5],
       img: "https://www.youtube.com/embed/CRRlbK5w8AE",
       img2: terminator2,
       avg: 2.7,

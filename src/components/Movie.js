@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { useData } from "./DataMovie";
 
 export default function Movie(props) {
   const { movies, setMovies } = useData();
+
+  const [newMovie, setnewMovie] = useState({
+    name: props.name,
+  });
 
   const copy = movies.slice();
   const updateRating = (e) => {
@@ -17,6 +21,14 @@ export default function Movie(props) {
     element.avg = element.rating.reduce(reducer) / element.rating.length;
 
     setMovies(copy);
+
+    sendDisplay();
+  };
+
+  const sendDisplay = () => {
+
+    props.sendDisplay(newMovie.name)
+
   };
 
   return (

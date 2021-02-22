@@ -25,7 +25,6 @@ function AllMovies(props) {
 
     return movies.reverse();
   };
-
   sort();
 
   const handelChange = (e) => {
@@ -39,6 +38,11 @@ function AllMovies(props) {
       top: 0,
       behavior: "smooth",
     });
+  };
+
+  const sendDisplay = (display) => {
+    history.push(`/${display}`);
+    setnewMovie({ display: true });
   };
 
   return (
@@ -106,6 +110,7 @@ function AllMovies(props) {
                         index={index}
                         img={item.img}
                         avg={item.avg}
+                        sendDisplay={sendDisplay}
                       />
                     )}
                   />
@@ -121,6 +126,7 @@ function AllMovies(props) {
                         index={index}
                         img={item.img}
                         avg={item.avg}
+                        sendDisplay={sendDisplay}
                       />
                     )}
                   />
@@ -151,7 +157,8 @@ function AllMovies(props) {
                             {item.name}
                           </button>
                           <p className="mt-4">
-                            Rating: {item.avg.toFixed(1)} <i class="fas fa-star"> </i>
+                            Rating: {item.avg.toFixed(1)}{" "}
+                            <i class="fas fa-star"> </i>
                           </p>
                           <p className="card-text">
                             <small className="text-muted"></small>
