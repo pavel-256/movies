@@ -77,8 +77,13 @@ option {
     margin: auto;
   }
 
+  /* title 3 monvies */
   .best {
     text-align: center;
+  }
+
+  .best-btn {
+    margin-left: 90px;
   }
 }
 

@@ -44,6 +44,7 @@ function AllMovies(props) {
     setnewMovie({ display: true });
   };
 
+
   return (
     <div>
       <header id="top">
@@ -147,15 +148,14 @@ function AllMovies(props) {
                   <div className="card mb-5 movie_card best_square">
                     <div className="row no-gutters ">
                       <div className="col-lg-6 bestMoviWrapper   ">
-                        <img src={item.img2} className="img-best" alt="..." />
+                        <img src={item.img2} className="img-best" alt="..." ></img>
                       </div>
                       <div className="col-lg-5 m-auto ">
                         <div className="card-body">
                           <button
-                            id="scroll"
                             onClick={handelChange}
                             value={item.name}
-                            className="card-title btn btn-warning btn-lg "
+                            className="card-title btn btn-warning btn-lg best-btn"
                           >
                             {item.name}
                           </button>
