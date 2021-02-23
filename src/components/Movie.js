@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useData } from "./DataMovie";
-import ReactStars from "react-stars";
 
 export default function Movie(props) {
   const { movies, setMovies } = useData();
@@ -11,7 +10,7 @@ export default function Movie(props) {
 
   const copy = movies.slice();
   const updateRating = (e) => {
-    const rating = e;
+    const rating = e.target.value;
     const index = props.index;
     copy[index].rating.push(Number(rating));
 
@@ -28,10 +27,6 @@ export default function Movie(props) {
 
   const sendDisplay = () => {
     props.sendDisplay(newMovie.name);
-  };
-
-  const ratingChanged = (newRating) => {
-    updateRating(newRating);
   };
 
   return (
@@ -61,7 +56,6 @@ export default function Movie(props) {
             <h6>
               Average Rating:&nbsp; {props.avg.toFixed(1)}{" "}
               <i class="fas fa-star"></i>
-      
             </h6>
           </div>
           <div>
