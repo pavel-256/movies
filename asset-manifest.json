@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/movies/static/css/main.bb4adbfa.chunk.css",
-    "main.js": "/movies/static/js/main.262e799e.chunk.js",
-    "main.js.map": "/movies/static/js/main.262e799e.chunk.js.map",
+    "main.css": "/movies/static/css/main.8a04b125.chunk.css",
+    "main.js": "/movies/static/js/main.8581bc95.chunk.js",
+    "main.js.map": "/movies/static/js/main.8581bc95.chunk.js.map",
     "runtime-main.js": "/movies/static/js/runtime-main.827ab490.js",
     "runtime-main.js.map": "/movies/static/js/runtime-main.827ab490.js.map",
     "static/js/2.bc9028ab.chunk.js": "/movies/static/js/2.bc9028ab.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.033879ea.chunk.js": "/movies/static/js/3.033879ea.chunk.js",
     "static/js/3.033879ea.chunk.js.map": "/movies/static/js/3.033879ea.chunk.js.map",
     "index.html": "/movies/index.html",
-    "static/css/main.bb4adbfa.chunk.css.map": "/movies/static/css/main.bb4adbfa.chunk.css.map",
+    "static/css/main.8a04b125.chunk.css.map": "/movies/static/css/main.8a04b125.chunk.css.map",
     "static/js/2.bc9028ab.chunk.js.LICENSE.txt": "/movies/static/js/2.bc9028ab.chunk.js.LICENSE.txt",
     "static/media/avatar.6dc2a3db.jpg": "/movies/static/media/avatar.6dc2a3db.jpg",
     "static/media/batman.1d710c52.jpg": "/movies/static/media/batman.1d710c52.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.827ab490.js",
     "static/js/2.bc9028ab.chunk.js",
-    "static/css/main.bb4adbfa.chunk.css",
-    "static/js/main.262e799e.chunk.js"
+    "static/css/main.8a04b125.chunk.css",
+    "static/js/main.8581bc95.chunk.js"
   ]
 }
