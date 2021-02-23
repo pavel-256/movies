@@ -8,6 +8,7 @@ import rambo2 from "../img/rambo2.jpg";
 import riddic from "../img/riddic.jpg";
 import robocop2 from "../img/robocop2.jpg";
 import spiderman3 from "../img/spiderman3.jpg";
+import ghost from "../img/ghost.jpg";
 import terminator2 from "../img/terminator2.jpeg";
 import matrix from "../img/matrix.jpg";
 
@@ -140,8 +141,19 @@ export const DataMovie = ({ children }) => {
       writers: "James Cameron, William Wisher",
       stars: "Arnold Schwarzenegger, Linda Hamilton, Edward Furlong",
     },
+    {
+      name: "Ghost in the Shell",
+      discription:
+        "In the near future, Major Mira Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.",
+      rating: [1, 5, 3, 5],
+      img: "https://www.youtube.com/embed/tRkb1X9ovI4",
+      img2: ghost,
+      avg: 3.5,
+      director: "Rupert Sanders",
+      writers: "Jamie Moss, Shirow Masamune",
+      stars: " Scarlett Johansson, Pilou Asbæk, Takeshi Kitano",
+    },
   ]);
-
 
   return (
     <div className="App">
@@ -156,3 +168,6 @@ export const DataMovie = ({ children }) => {
     </div>
   );
 };
+
+
+<iframe width="853" height="480" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

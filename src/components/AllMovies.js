@@ -11,6 +11,7 @@ function AllMovies(props) {
   const [newMovie, setnewMovie] = useState({
     display: false,
     resetSelect: false,
+    name: "",
   });
 
   const sort = () => {
@@ -39,11 +40,18 @@ function AllMovies(props) {
     });
   };
 
+  const handelImage = () => {
+    setnewMovie({ display: true });
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const sendDisplay = (display) => {
     history.push(`/${display}`);
     setnewMovie({ display: true });
   };
-
 
   return (
     <div>
@@ -148,20 +156,19 @@ function AllMovies(props) {
                   <div className="card mb-5 movie_card best_square">
                     <div className="row no-gutters ">
                       <div className="col-lg-6 bestMoviWrapper   ">
-                        <img src={item.img2} className="img-best" alt="..." ></img>
+                        <Link onClick={handelImage} to={`/${item.name}`}>
+                          <img src={item.img2} className="img-best" alt="..." />
+                        </Link>
                       </div>
-                      <div className="col-lg-5 m-auto ">
+                      <div className="col-lg-6 m-auto ">
                         <div className="card-body">
-                          <button
-                            onClick={handelChange}
-                            value={item.name}
-                            className="card-title btn btn-warning btn-lg best-btn"
-                          >
-                            {item.name}
-                          </button>
-                          <p className="mt-4">
+                          <br />
+                          <br />
+                          <br />
+                          <h3>{item.name}</h3>
+                          <p className="">
                             Rating: {item.avg.toFixed(1)}
-                            <i class="fas fa-star"> </i>
+                            &nbsp; <i class="fas fa-star"> </i>
                           </p>
                           <p className="card-text">
                             <small className="text-muted"></small>

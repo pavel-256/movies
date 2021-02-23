@@ -83,8 +83,16 @@ option {
   }
 
   .best-btn {
-    margin-left: 90px;
+    margin-left: 115px;
+     
   }
+
+
+  .bestMoviWrapper img {
+  
+    height: 150%;
+  }
+
 }
 
 /* main movie */
