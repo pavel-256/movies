@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/movies/static/css/main.95b2a464.chunk.css",
-    "main.js": "/movies/static/js/main.65bed8af.chunk.js",
-    "main.js.map": "/movies/static/js/main.65bed8af.chunk.js.map",
-    "runtime-main.js": "/movies/static/js/runtime-main.827ab490.js",
-    "runtime-main.js.map": "/movies/static/js/runtime-main.827ab490.js.map",
-    "static/js/2.bc9028ab.chunk.js": "/movies/static/js/2.bc9028ab.chunk.js",
-    "static/js/2.bc9028ab.chunk.js.map": "/movies/static/js/2.bc9028ab.chunk.js.map",
-    "static/js/3.033879ea.chunk.js": "/movies/static/js/3.033879ea.chunk.js",
-    "static/js/3.033879ea.chunk.js.map": "/movies/static/js/3.033879ea.chunk.js.map",
+    "main.css": "/movies/static/css/main.7a0342a4.chunk.css",
+    "main.js": "/movies/static/js/main.53eab317.chunk.js",
+    "main.js.map": "/movies/static/js/main.53eab317.chunk.js.map",
+    "runtime-main.js": "/movies/static/js/runtime-main.bd392b14.js",
+    "runtime-main.js.map": "/movies/static/js/runtime-main.bd392b14.js.map",
+    "static/js/2.3a601c30.chunk.js": "/movies/static/js/2.3a601c30.chunk.js",
+    "static/js/2.3a601c30.chunk.js.map": "/movies/static/js/2.3a601c30.chunk.js.map",
+    "static/js/3.53598ac2.chunk.js": "/movies/static/js/3.53598ac2.chunk.js",
+    "static/js/3.53598ac2.chunk.js.map": "/movies/static/js/3.53598ac2.chunk.js.map",
     "index.html": "/movies/index.html",
-    "static/css/main.95b2a464.chunk.css.map": "/movies/static/css/main.95b2a464.chunk.css.map",
-    "static/js/2.bc9028ab.chunk.js.LICENSE.txt": "/movies/static/js/2.bc9028ab.chunk.js.LICENSE.txt",
+    "static/css/main.7a0342a4.chunk.css.map": "/movies/static/css/main.7a0342a4.chunk.css.map",
+    "static/js/2.3a601c30.chunk.js.LICENSE.txt": "/movies/static/js/2.3a601c30.chunk.js.LICENSE.txt",
     "static/media/avatar.6dc2a3db.jpg": "/movies/static/media/avatar.6dc2a3db.jpg",
     "static/media/batman.1d710c52.jpg": "/movies/static/media/batman.1d710c52.jpg",
     "static/media/leon.4e45ee1b.jpg": "/movies/static/media/leon.4e45ee1b.jpg",
@@ -24,9 +24,9 @@
     "static/media/terminator2.52efc32d.jpeg": "/movies/static/media/terminator2.52efc32d.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.827ab490.js",
-    "static/js/2.bc9028ab.chunk.js",
-    "static/css/main.95b2a464.chunk.css",
-    "static/js/main.65bed8af.chunk.js"
+    "static/js/runtime-main.bd392b14.js",
+    "static/js/2.3a601c30.chunk.js",
+    "static/css/main.7a0342a4.chunk.css",
+    "static/js/main.53eab317.chunk.js"
   ]
 }
