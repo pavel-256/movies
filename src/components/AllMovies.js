@@ -53,7 +53,6 @@ function AllMovies(props) {
         <nav className="navbar navbar-expand-lg navbar-dark">
           <div className="container-fluid">
             <div
-              type="button"
               onClick={() => {
                 history.push("/");
                 setnewMovie({ display: false });
@@ -154,7 +153,7 @@ function AllMovies(props) {
 
               {movies.map((item, index) => {
                 return index < 3 ? (
-                  <div className="card mb-5 movie_card best_square">
+                  <div className="card mb-4 movie_card best_square">
                     <div className="row no-gutters ">
                       <div className="col-lg-6 bestMoviWrapper   ">
                         <Link onClick={handelImage} to={`/${item.name}`}>
