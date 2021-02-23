@@ -24,11 +24,11 @@ export const DataMovie = ({ children }) => {
       name: "Avatar",
       discription:
         "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-      rating: [5, 5, 5, 5],
+      rating: [5, 5, 5, 4],
       img: "https://www.youtube.com/embed/6ziBFh3V1aM",
       avg: 5,
       img2: avatar,
-      avg: 5.0,
+      avg: 4.7,
       director: "James Cameron",
       writers: "James Cameron",
       stars: "Sam Worthington, Zoe Saldana, Sigourney Weaver ",

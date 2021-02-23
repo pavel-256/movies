@@ -11,7 +11,6 @@ function AllMovies(props) {
   const [newMovie, setnewMovie] = useState({
     display: false,
     resetSelect: false,
-    name: "",
   });
 
   const sort = () => {
@@ -33,11 +32,6 @@ function AllMovies(props) {
     setnewMovie({ display: true, resetSelect: true });
 
     history.push(`/${e.target.value}`);
-
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
   };
 
   const handelImage = () => {
@@ -58,7 +52,14 @@ function AllMovies(props) {
       <header id="top">
         <nav className="navbar navbar-expand-lg navbar-dark">
           <div className="container-fluid">
-            <div className="movie_icon">
+            <div
+              type="button"
+              onClick={() => {
+                history.push("/");
+                setnewMovie({ display: false });
+              }}
+              className="movie_icon"
+            >
               {" "}
               <i class="fas fa-video mr-2 fa-2x "></i>
               <span id="main_icon">MovieRatings</span>
