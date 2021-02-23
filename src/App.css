@@ -85,6 +85,10 @@ option {
   height: 100%;
 }
 
+hr {
+  border-color: white;
+}
+
 /* footer */
 
 .footer {

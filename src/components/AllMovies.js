@@ -44,8 +44,6 @@ function AllMovies(props) {
     setnewMovie({ display: true });
   };
 
-
-
   return (
     <div>
       <header id="top">
@@ -95,7 +93,7 @@ function AllMovies(props) {
           </div>
         </nav>
       </header>
-      <main className="min-h620 main">
+      <min className="min-h620 main">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-7 movie col-md-12 col-sm-12">
@@ -185,7 +183,7 @@ function AllMovies(props) {
             </div>
           </div>
         </div>
-      </main>
+      </min>
       <footer className="footer">
         <div className="container">
           <div className="row">

@@ -2,6 +2,7 @@
 import React from "react";
 import AllMovies from "./components/AllMovies";
 
+
 import "./App.css";
 
 function App() {

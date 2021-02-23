@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useData } from "./DataMovie";
+import ReactStars from "react-stars";
 
 export default function Movie(props) {
   const { movies, setMovies } = useData();
@@ -10,7 +11,7 @@ export default function Movie(props) {
 
   const copy = movies.slice();
   const updateRating = (e) => {
-    const rating = e.target.value;
+    const rating = e;
     const index = props.index;
     copy[index].rating.push(Number(rating));
 
@@ -29,14 +30,16 @@ export default function Movie(props) {
     props.sendDisplay(newMovie.name);
   };
 
+  const ratingChanged = (newRating) => {
+    updateRating(newRating);
+  };
+
   return (
     <div>
       <div className="col mb-4 ">
         <div className="card movie_card">
           <div className="videoWrapper">
             <iframe
-              width={755}
-              height={506}
               frameBorder={0}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -48,15 +51,17 @@ export default function Movie(props) {
           <div className="card-body">
             <h3 className="card-title">{props.name}</h3>
             <p className="card-text">{props.discription}</p>
-            <br />
+            <hr />
+
             <h6>Director: &nbsp; {props.director}</h6>
             <h6>Writers: &nbsp; {props.writers}</h6>
             <h6>Stars: &nbsp; {props.stars}</h6>
-            <br />
+            <hr />
 
             <h6>
               Average Rating:&nbsp; {props.avg.toFixed(1)}{" "}
               <i class="fas fa-star"></i>
+      
             </h6>
           </div>
           <div>
