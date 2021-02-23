@@ -39,11 +39,6 @@ option {
   color: aliceblue;
 }
 
-.movie_card {
-  background-color: #56998b;
-  color: aliceblue;
-}
-
 /* the ratings buttons */
 .btn-warning {
   background-color: #e2b616;
@@ -68,6 +63,23 @@ option {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.movie_card {
+  background-color: #56998b;
+  color: white;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .best_square {
+    max-width: 92%;
+    margin: auto;
+  }
+
+  .best {
+    text-align: center;
+  }
 }
 
 /* main movie */

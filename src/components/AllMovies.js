@@ -96,7 +96,7 @@ function AllMovies(props) {
       <min className="min-h620 main">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-7 movie col-md-12 col-sm-12">
+            <div className="col-lg-7 movie col-md-12 col-sm-12 mb-3">
               {movies.map((item, index) => {
                 return index < 1 && newMovie.display === false ? (
                   <Route
@@ -144,15 +144,12 @@ function AllMovies(props) {
 
               {movies.map((item, index) => {
                 return index < 3 ? (
-                  <div
-                    className="card mb-5  movie_card "
-                    style={{ maxWidth: "600px" }}
-                  >
+                  <div className="card mb-5 movie_card best_square">
                     <div className="row no-gutters ">
-                      <div className="col-lg-6 bestMoviWrapper ">
+                      <div className="col-lg-6 bestMoviWrapper   ">
                         <img src={item.img2} className="img-best" alt="..." />
                       </div>
-                      <div className="col-lg-6 col">
+                      <div className="col-lg-5 m-auto ">
                         <div className="card-body">
                           <button
                             id="scroll"
