@@ -96,7 +96,7 @@ export const DataMovie = ({ children }) => {
     {
       name: "Rambo 2",
       discription:
-        "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+        "Rambo returns to the jungles of Vietnam on a mission to infiltrate an enemy base-camp and rescue the American POWs still held captive there",
       rating: [2, 2, 2, 4],
       img: "https://www.youtube.com/embed/IQt9bDOGTgg",
       img2: rambo2,
