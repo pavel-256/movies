@@ -25,7 +25,7 @@ export const DataMovie = ({ children }) => {
       discription:
         "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
       rating: [5, 5, 5, 4],
-      img: "https://www.youtube.com/embed/6ziBFh3V1aM",
+      img: "https://www.youtube.com/embed/CM79GTEm2ps",
       avg: 5,
       img2: avatar,
       avg: 4.7,
@@ -168,6 +168,3 @@ export const DataMovie = ({ children }) => {
     </div>
   );
 };
-
-
-<iframe width="853" height="480" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
